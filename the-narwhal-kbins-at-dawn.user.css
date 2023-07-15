@@ -194,7 +194,7 @@ margin-right: 1em;
 .theme--light {
     --kbin-upvoted-color:#FF8B60;
     --kbin-downvoted-color: #9494FF;
-    --kbin-vote-text-color:#c6c6c6;
+    --kbin-vote-text-color:#bcbcbc;
 }
 
 .theme--dark {
