@@ -28,10 +28,8 @@ domain("kbin.run") {
     }
 
     .theme--light {
-        --kbin-entry-link-visited-color: var(--old-reddit-entry-link-visited-color) !important;
         --old-reddit-entry-link-color: #0000ff;
         --old-reddit-entry-link-visited-color: #551a8b;
-        --kbin-section-title-link-color: var(--old-reddit-entry-link-color) !important;
         --kbin-link-hover-color: #0000ff;
         --kbin-header-link-active-bg: #eff7ff;
         --kbin-header-bg: #cee3f8;
@@ -46,11 +44,9 @@ domain("kbin.run") {
     }
 
     .theme--dark {
-        --kbin-entry-link-visited-color: var(--old-reddit-entry-link-visited-color) !important;
         --dark-reddit-entry-link-color: #D7DADC;
         --dark-reddit-entry-link-visited-color: #6f7071;
         ;
-        --kbin-section-title-link-color: var(--old-reddit-entry-link-color) !important;
         --kbin-link-hover-color: #D7DADC;
         --kbin-header-link-active-bg: #303030;
         --kbin-header-bg: #1A1A1B;
@@ -241,6 +237,7 @@ domain("kbin.run") {
         height: 2.7rem;
     }
 
+
     /* Comments & Lists */
     .vote button span {
         font-weight: bold;
@@ -314,7 +311,6 @@ domain("kbin.run") {
     .entry__domain a {
         color: var(--old-reddit-tagline)
     }
-
 
     /* Comments */
     .theme--light .comment header {
