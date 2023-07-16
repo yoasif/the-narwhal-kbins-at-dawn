@@ -245,6 +245,15 @@ domain("kbin.run") {
     }
 
 
+
+    @media (min-width: 992px) {
+        .theme--light #middle.page-entry-front,
+        .theme--dark #middle.page-entry-front {
+            --kbin-entry-element-spacing: 0;
+        }
+    }
+
+
     /* Comments & Lists */
     .vote button span {
         font-weight: bold;
