@@ -237,6 +237,13 @@ domain("kbin.run") {
         height: 2.7rem;
     }
 
+    /* Lists */
+    .theme--light #middle.page-entry-front,
+    .theme--dark #middle.page-entry-front {
+        --kbin-entry-link-visited-color: var(--old-reddit-entry-link-visited-color);
+        --kbin-section-title-link-color: var(--old-reddit-entry-link-color);
+    }
+
 
     /* Comments & Lists */
     .vote button span {
