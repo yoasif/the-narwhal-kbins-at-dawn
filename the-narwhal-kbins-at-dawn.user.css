@@ -103,6 +103,13 @@ domain("kbin.run") {
         }
     }
 
+    @media (min-width: 992px) {
+        .theme--light #middle.page-entry-front #main.view-compact,
+        .theme--dark #middle.page-entry-front #main.view-compact {
+            --kbin-entry-element-spacing: 0;
+        }
+    }
+
     .kbin-container {
         margin: 0 1em;
         max-width: none;
@@ -243,16 +250,6 @@ domain("kbin.run") {
         --kbin-entry-link-visited-color: var(--old-reddit-entry-link-visited-color);
         --kbin-section-title-link-color: var(--old-reddit-entry-link-color);
     }
-
-
-
-    @media (min-width: 992px) {
-        .theme--light #middle.page-entry-front,
-        .theme--dark #middle.page-entry-front {
-            --kbin-entry-element-spacing: 0;
-        }
-    }
-
 
     /* Comments & Lists */
     .vote button span {
